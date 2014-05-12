@@ -43,6 +43,7 @@ public class HashCuentaLetras {
         Enumeration<Integer> value=tabla.elements();
         String letra;
         int contador;
+                System.out.println("Este es el resultado");
         System.out.println("Letras\tRepeticiones");
         System.out.println("_____________________");
         while(key.hasMoreElements()){
@@ -50,7 +51,7 @@ public class HashCuentaLetras {
         contador= value.nextElement();
         System.out.println("    "+letra+"\t\t"+contador);
         }
-        
+
         
         
         //System.out.println(tabla.toString());
